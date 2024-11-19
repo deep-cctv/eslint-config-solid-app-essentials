@@ -27,7 +27,7 @@ importers:
         specifier: ^15.12.0
         version: 15.12.0
       typescript:
-        specifier: link:eslint-plugin-solid/configs/typescript
+        specifier: ^5.6.3
         version: 5.6.3
       typescript-eslint:
         specifier: ^8.15.0
