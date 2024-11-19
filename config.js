@@ -6,6 +6,9 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 import react from "eslint-plugin-react";
 
+/**
+ * @type {import("eslint").Linter.Config}
+ */
 export default [
   { files: ["**/*.{ts,tsx}"] },
   { languageOptions: { globals: globals.browser } },
