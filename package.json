@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-solid-app-essentials",
+  "version": "1.0.0",
+  "main": "config.js",
+  "type": "module",
+  "scripts": {},
+  "author": "lee-donghyun",
+  "license": "ISC",
+  "description": "The most essential eslint configuration for Solid app",
+  "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4",
+  "dependencies": {
+    "@eslint/js": "^9.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint-plugin-perfectionist": "^3.9.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-solid": "^0.14.4",
+    "globals": "^15.12.0",
+    "typescript": "link:eslint-plugin-solid/configs/typescript",
+    "typescript-eslint": "^8.15.0"
+  }
+}
